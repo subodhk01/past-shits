@@ -1,0 +1,236 @@
+.animated {
+            -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+         }
+@-webkit-keyframes fadeInLeft {
+            0% {
+               opacity: 0;
+               -webkit-transform: translate3d(-200px,0,0);
+            }
+            100% {
+               opacity: 1;
+               -webkit-transform: none;
+            }
+         }
+         
+         @keyframes fadeInLeft {
+            0% {
+               opacity: 0;
+               transform: translate3d(-200px,0,0);
+            }
+            100% {
+               opacity: 1;
+               transform: none;
+            }
+         }
+         
+         .fadeInLeft {
+         -webkit-animation-name: fadeInLeft;
+         animation-name: fadeInLeft;
+         }
+@-webkit-keyframes fadeInRight {
+            0% {
+               opacity: 0;
+               -webkit-transform: translate3d(200px,0,0);
+            }
+            100% {
+               opacity: 1;
+               -webkit-transform: none;
+            }
+         }
+         
+         @keyframes fadeInRight {
+            0% {
+               opacity: 0;
+               transform: translate3d(200px,0,0);
+            }
+            100% {
+               opacity: 1;
+               transform: none;
+            }
+         }
+         
+         .fadeInRight {
+         -webkit-animation-name: fadeInRight;
+         animation-name: fadeInRight;
+         }
+@-webkit-keyframes fadeInUp {
+            from{opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);}
+            to{opacity: 1;-webkit-transform: none;
+    transform: none;}
+         }
+         
+         @keyframes fadeInUp {
+            from {opacity: 0;-webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);}
+            to {opacity: 1;-webkit-transform: none;
+    transform: none;}
+         }
+         
+         .fadeInUp {
+            -webkit-animation-name: fadeInUp;
+            animation-name: fadeInUp;
+         }
+
+a {
+    text-decoration: none;
+    color: white;
+}
+body {
+    margin: 0px;
+}
+/* Head */
+#head_Subodh {
+    background-image: url(class-room_1.jpg);
+    background-size: 120%;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+}
+@media all and (max-width:1400px){
+    #head_Subodh {
+        background-size: 150%;
+    }
+}
+@media all and (max-width:1125px){
+    #head_Subodh {
+        background-size: 170%;
+    }
+}
+@media all and (max-width:998px){
+    #head_Subodh {
+        background-size: 190%;
+    }
+}
+@media all and (max-width:892px){
+    #head_Subodh {
+        background-size: 230%;
+        background-position: right;
+    }
+}
+@media all and (max-width:738px){
+    #head_Subodh {
+        background-size: 270%;
+    }
+}
+@media all and (max-width:627px){
+    #head_Subodh {
+        background-size: 300%;
+        background-position: left;
+    }
+}
+@media all and (max-width:560px){
+    #head_Subodh {
+        background-size: 330%;
+    }
+}
+@media all and (max-width:510px){
+    #head_Subodh {
+        background-size: 370%;
+    }
+}
+@media all and (max-width:465px){
+    #head_Subodh {
+        background-size: 420%;
+        background-position: left;
+    }
+}
+@media all and (max-width:405px){
+    #head_Subodh {
+        background-size: 500%;
+    }
+}
+#head-nav_Subodh {
+    height: 70px;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-shadow: 0px 0px 50px 1px silver inset;
+}
+#nav-1_Subodh {
+    height: inherit;
+    width: 50%;
+    display: inline-block;
+}
+#nav-2_Subodh {
+    height: inherit;
+    float: right;
+    text-align: right;
+    text-align: -moz-right;
+}
+#head-nav-button_Subodh {
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 0.5%;
+    width: 80px;
+    text-align: center;
+    height: 28px;
+    border-radius: 3px;
+    margin-top: 16px;
+    font-family: Source Sans Pro;
+    font-size: 1.2em;
+    transition-duration: 0.4s;
+}
+#head-nav-button_Subodh:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 20px 1px silver;
+    transform: scale(1.1,1.1);
+}
+#head-content_Subodh {
+    text-align: center;
+    font-family: Chela One;
+    padding: 100px 0px 100px 0px ;
+}
+#head-content-1_Subodh {
+    font-size: 2.5em;
+    text-shadow: 0px 0px 40px black;
+    font-family: Source Sans Pro;
+}
+#form_Subodh {
+    text-align: center;
+    padding: 0px 40% 100px 40%;
+    font-family: Source Sans Pro;
+    transition-duration: 0.4s;
+}
+@media only screen and (max-width:1350px){
+    #form_Subodh {
+        padding: 0px 25% 80px 25%;
+    }
+    #head-content_Subodh {
+        padding: 75px 0px 75px 0px;
+    }
+}
+@media only screen and (max-width:500px){
+    #form_Subodh {
+        padding: 0px 5% 50px 5%;
+    }
+    #head-content-1_Subodh {
+        font-size: 1.5em;
+    }
+    #head-content_Subodh {
+        padding: 45px 0px 45px 0px;
+    }
+}
+#form_Subodh input {
+    font-size: 120%;
+    border-radius: 4px;
+    border:none;
+    padding: 2%;
+    transition-duration: 0.4s;
+    font-family: Source Sans Pro;
+}
+#form_Subodh input:focus {
+    background-color: #DEEAF5;
+    box-shadow: 0px 0px 10px 2px silver;
+}
+#button-form_Subodh:hover {
+    background-color: #5883E4;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 2px silver;
+    color: white;
+}
+/* Head */

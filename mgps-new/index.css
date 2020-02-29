@@ -1,0 +1,267 @@
+body {
+    margin: 0;
+}
+hr {
+    width: 0px;
+    transition-duration: 0.4s;
+}
+header {
+    background-image: url('mgps-back.jpg');
+    background-size: cover;
+    box-shadow: 0px 0px 10px 2px silver;
+}
+#navigation_Subodhk {
+    box-shadow: 0px 0px 9px 1px silver;
+    background-color: rgba(255,255,255,0.75)
+}
+#navigation-logo_Subodhk {
+    text-align:  center;
+    height: 60px;
+}
+#navigation-logo_Subodhk img {
+    height: 130px;
+    box-shadow: 0px 0px 9px 1px white;
+    border-radius: 50%;
+    transition-duration: 0.2s;
+}
+#navigation-logo_Subodhk img:hover {
+    box-shadow: 0px 0px 9px 3px white;
+}
+#navigation-link_Subodhk {
+    text-align: center;
+    height: 50px;
+    font-family: Oswald;
+}
+#navigation-link_Subodhk ul {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0;
+}
+#navigation-link_Subodhk ul a {
+    text-decoration: none;
+}
+#navigation-link_Subodhk li {
+    display: inline-block;
+    color: #333333;
+    margin: 0px 10px;
+}
+#hidden-head_Subodh {
+    display: none;
+    font-family: Oswald;
+    margin-left: 10%;
+}
+@media screen and (max-width: 709px){
+    #navigation-link_Subodhk ul {
+        display: none;
+    }
+    #navigation-logo_Subodhk {
+        text-align: center;
+        padding: 0px 0px 0px 10px;
+    }
+    #hidden-head_Subodh {
+        display: inline-block;
+    }   
+}
+#navigation-link_Subodhk ul li:hover {
+    color: #575757;
+    text-decoration: underline;
+}
+#hero-back_Subodhk {
+    padding: 140px 10%;
+    color: white;
+    font-size: 3.2em;
+    text-shadow: 0px 0px 50px black;
+    font-family: Cookie, cursive;
+}
+#hero-back_Subodhk div {
+    margin-left: 60%;
+}
+@media screen and (max-width: 1200px){
+    #hero-back_Subodhk div {
+        margin-left: 30%;
+    }
+}
+@media screen and (max-width: 820px){
+    #hero-back_Subodhk div {
+        text-align: center;
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width: 600px){
+    #hero-back_Subodhk {
+        font-size: 2em;
+        padding: 100px 1%;
+    }
+}
+/******************************** Header End *****************************/
+#extra-quote_Subodhk {
+    padding: 40px;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 1.2em;
+}
+#quote_Subodhk {
+    
+}
+/******************************** Quote End ********************************/
+#outer-sections_Subodhk {
+    box-shadow: 0px 0px 10px 2px silver;
+    width: 100%;
+    overflow: hidden;
+    font-family: Raleway;
+}
+.sections_Subodh {
+    text-align: center;
+    color: white;
+    transition-duration: 0.7s;
+    box-shadow: 0px 0px 100px 1px #575757 inset;
+    overflow: hidden;
+}
+.section1 {
+    height: 300px;
+    background-image: url('sec-1.jpg');
+    background-size: cover;
+    cursor: pointer;
+    font-size: 0.94em;
+}
+.section2 {
+    height: 300px;
+    background-image: url('sec-2.jpg');
+    background-size: cover;
+    cursor: pointer;
+    font-size: 0.94em;
+}
+.section3 {
+    height: 300px;
+    background-image: url('sec-3.jpg');
+    background-size: cover;
+    cursor: pointer;
+}
+.section4 {
+    height: 300px;
+    padding: 0 !important;
+}
+.section5 {
+    height: 300px;
+    padding: 10px;
+    text-align: center;
+}
+.section6 {
+    height: 300px;
+    padding: 0 !important;
+}
+/*********Sections*********/
+#head1_Subodh {
+    font-family: Oswald;
+    font-size: 1.4em;
+    margin-top: 120px;
+}
+.section1:hover #head1_Subodh {
+    display: none;
+}
+.section1:hover #content1_Subodh {
+    display: block;
+}
+.section1:hover .hr1 {
+    width: 100%;
+}
+.section1:hover {
+    background-position: bottom;
+}
+#content1_Subodh {
+     display: none;
+     margin-top: 50px;
+}
+
+#head2_Subodh {
+    font-family: Oswald;
+    font-size: 1.4em;
+    margin-top: 120px;
+}
+.section2:hover #head2_Subodh {
+    display: none;
+}
+.section2:hover #content2_Subodh {
+    display: block;
+}
+.section2:hover .hr2 {
+    width: 100%;
+}
+.section2:hover {
+    background-position: bottom;
+}
+#content2_Subodh {
+     display: none;
+     margin-top: 25px;
+}
+
+#head3_Subodh {
+    font-family: Oswald;
+    font-size: 1.4em;
+    margin-top: 120px;
+}
+.section3:hover #head3_Subodh {
+    display: none;
+}
+.section3:hover #content3_Subodh {
+    display: block;
+}
+.section3:hover .hr3 {
+    width: 100%;
+}
+.section3:hover {
+    background-position: bottom;
+}
+#content3_Subodh {
+     display: none;
+     margin-top: 65px;
+}
+marquee {
+    text-align: center;
+}
+
+@media screen and (max-width: 1210px){
+    #content1_Subodh {
+        margin-top: 30px;   
+    }
+    #content3_Subodh {
+        margin-top: 30px;
+    }
+    #content2_Subodh {
+        margin-top: 0px!important;
+    }
+}
+@media screen and (max-width: 1310px){
+    #content2_Subodh {
+        font-size: 0.9em;
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 992px){
+    #content1_Subodh {
+        margin-top: 80px;
+    }
+    #content2_Subodh {
+        margin-top: 80px!important;
+    }
+    #content3_Subodh {
+        margin-top: 100px;
+    }
+}
+@media screen and (max-width: 570px){
+    #content1_Subodh {
+        margin-top: 30px;
+    }
+    #content2_Subodh {
+        margin-top: 30px!important;
+    }
+    #content3_Subodh {
+        margin-top: 40px;
+    }
+}
+/*********Sections*********/
+/****************************footer****************/
+
+#outer-footer_Subodh {
+    
+}

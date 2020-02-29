@@ -1,0 +1,221 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<link href="array.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-77956062-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="jQuery.scrollSpeed.js"></script>
+        <script>
+            
+$(function() {  
+
+    jQuery.scrollSpeed(80, 750);
+
+});
+        </script>
+    <!-- PopMyAds.com Popunder Code for beginc.in -->
+     
+    <script type="text/javascript">
+    var pmauid = '27190';
+    var pmawid = '25542';
+    var fq = '0';
+    </script>
+    <script type="text/javascript" src="http://cdn.popmyads.com/pma.js"></script>
+     
+    <!-- PopMyAds.com Popunder Code End -->
+	<title>Arrays in C | Begin C - A beginners Guide</title>
+    <link rel="icon" type="image/gif/png" href="C1.png" />
+</head>
+
+<body>
+
+            <div id="nav">
+        
+                <a href="index.htm"><div id="nav_head"> Begin C </div></a>
+                <div id="nav_container">
+                    <div class="nav"><a href="Solutions.htm"> Solutions </a></div>
+                    <div class="nav" id="home_nav"><a href="index.htm"> Home </a ></div>
+                    <div class="nav"><a href="about.htm"> About </a></div>
+                </div>
+                
+            </div>
+            
+             
+        
+        <div id="content">
+        
+                    <div id="side_list">
+                    
+                         <a href="index.htm"><div class="list"> Home </div></a>   
+                         <a href="intro.htm"><div class="list"> Introduction </div></a>
+                         <a href="lan_basic.htm"><div class="list"> Language Basic & Operators </div></a>
+                         <a href="comments.htm"><div class="list"> Comments </div></a>
+                         <a href="first.htm"><div class="list"> Our First Program </div></a>
+                         <a href="header.htm"><div class="list"> Header Files </div></a>
+                         <a href="con_flow.htm"><div class="list"> Control Statements </div></a>
+                         <a href="conditionals.htm"><div class="list"> Conditionals </div></a>
+                         <a href="un_con.htm"><div class="list"> Unconditionals </div></a>
+                         <a href="loops.htm"><div class="list"> Loops </div></a>
+                         <a href="array.htm"><div class="list" style="background: -webkit-linear-gradient(140deg, #87CDF8, #C1E7FD); 
+    background: -o-linear-gradient(140deg, #87CDF8, #C1E7FD); 
+    background: -moz-linear-gradient(140deg, #87CDF8, #C1E7FD);
+    background: linear-gradient(140deg, #87CDF8, #C1E7FD);background-color:#03C1E2;color:white"> Arrays </div></a>
+                         <a href="function.htm"><div class="list"> Functions </div></a>
+                         <a href="type_fun.htm"><div class="list"> Types of Functions </div></a><br />
+                         
+                         <a href="Solutions.htm"><div id="quiz" style="font-size: 2vw;">
+                                 Solutions are here 
+                         </div></a><br />
+                         
+                         <div id="quiz" style="font-size: 2vw;">
+                                 Quiz  <br /> Coming Soon 
+                         </div><br /><br />
+                         
+                            <div style="text-align: center;width: 99%;">
+                            
+                            </div><br /><br />
+                            <div style="text-align: center;width: 99%;">
+                            
+                            </div>
+                         
+                         
+                    
+                    </div>
+                    
+<!------------------------------------------------------------------------------------------------------------------------->
+                    
+                    <div id="main">
+                    
+                        <div id="ack">
+                            
+                            
+                                    <div class="heading_pages">    Arrays    </div>
+                                    
+                                    <p class="ack_content">
+                                    
+                                            
+                                            Arrays is a type of variable which is used to store multiple values of same type. Instead of declaring
+                                            num1 = <i>something</i> ; num2 = <i>something</i> ; num3 = <i>something</i> ; , we can make an array and put
+                                            all our values in it
+                                            <div style="text-align:center;background-color: #68FDD5;border-left: 2px solid #04C68B;
+                                            box-shadow: 2px 4px 4px 2px rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+                                            background: -webkit-linear-gradient(140deg, #68FDD5, #17E1B9); 
+                                            background: -o-linear-gradient(140deg, #68FDD5, #17E1B9); 
+                                            background: -moz-linear-gradient(140deg, #68FDD5, #17E1B9);
+                                            background: linear-gradient(140deg, #68FDD5, #17E1B9);
+                                            ">
+                                                           <code style="list-style-type: none;">
+                                                                <li style="text-align: left;margin-left: 5%;">Syntax:</li>
+                                                                <li style="text-indent: ;">datatype name[value];</li>
+                                                                
+                                                                
+                                                           </code> 
+                                                    </div><br />
+                                                    
+                                            Arrays are declared similarly as any variable but in arrarys we have to declare its size too. The amount of 
+                                            data which our array can store depends on the value.<br /><br />
+                                            <div class="ex">
+                                                    <code style="list-style-type: none;">
+                                                            <li>int num[5];</li>
+                                                            <li>num[0] = 12;</li>
+                                                            <li>num[1] = 345;</li>
+                                                            <li>num[2] = 700;</li>
+                                                            <li>num[3] = 34;</li>
+                                                            <li>num[4] = 33;</li>
+                                                            
+                                                            
+                                                    </code>
+                                            </div> <br />
+                                            
+                                            Here num is our array and the number of integers which it can store is 5. Remember that arrays are 
+                                            zero indexed i.e they start from (0) and end at (n-1) where n is the size of the array.
+                                            <br />
+                                            
+                                            
+                                    <br />
+                                    <hr /><p style="color: #D50D0D;"> NOTE : Strings are also a type of array of characters but if we want to make a 
+                                    array of string, we can do so.</p>
+                                    <div class="ex">
+                                            <code>char&nbsp; name[20][5];</code>
+                                    </div><br />
+                                    
+                                    Here [20] makes the array of character which forms a string and then [5] is used to form the array of that string.<br />
+                                    <hr/> We can also use scanf() to insert value as so :
+                                    <div class="ex">
+                                            <code>scanf("%d",&num[3]);</code>
+                                    </div><br /><hr />
+                                    We can also use loop to input values in an array.
+                                    <div class="ex">
+                                            <code style="list-style-type: none;">
+                                                    <li style="text-indent: ;">#include&lt;stdio.h&gt;</li>
+                                                    <li style="text-indent: ;">#include&lt;conio.h&gt;</li>
+                                                    <li style="text-indent: ;">void main()</li>
+                                                    <li style="text-indent: ;">{</li>
+                                                    <li style="text-indent: 10%;">clrscr();</li>
+                                                    <li style="text-indent: 10%;">int a[5],i;</li>
+                                                    <li style="text-indent: 10%;">for( i = 0 ; i &lt; 5 ; i++ )</li>
+                                                    <li style="text-indent: 10%;">{</li>
+                                                    <li style="text-indent: 20%;">scanf("%d",&a[i]);</li>
+                                                    <li style="text-indent: 10%;">}</li>
+                                                    <li style="text-indent: 10%;">getch();</li>
+                                                    <li style="text-indent: ;">}</li>
+                                                    <li style="text-indent: ;"></li>
+                                            </code>
+                                    </div>
+                                    
+                                    
+                                    </p>
+                             
+                             
+                             
+                             
+                                    
+                           
+                            
+                        </div>
+                        
+                        
+                    <a href="function.htm">
+                        <div id="next_ch">
+                        
+                            Next Chapter
+                        
+                        </div>
+                    </a>
+                    </div>
+        
+        </div>
+        
+        
+        
+        
+        
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        
+        
+        <div id="footer">
+        
+                <div style="margin-top: 0px;margin-bottom:0px;">A Subodh Verma Production</div> 
+        
+        </div>
+
+
+
+
+
+
+</body>
+</html>

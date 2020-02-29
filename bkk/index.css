@@ -1,0 +1,218 @@
+body {
+    margin: 0;
+}
+header {
+    padding: 120px 0px;
+    font-family: Oswald, Arial;
+    text-align: center;
+    background-image: url('header-back.jpg');
+    background-position: center;
+    background-size: 130%;
+    color: white;
+    letter-spacing: 1px;
+}
+@media all and (max-width: 1160px){
+    header {
+        background-size: 150%;
+    }
+}
+@media all and (max-width: 1010px){
+    header {
+        background-size: 180%;
+    }
+}
+@media all and (max-width: 848px){
+    header {
+        background-size: 220%;
+    }
+}
+@media all and (max-width: 690px){
+    header {
+        background-size: 250%;
+    }
+}
+@media all and (max-width: 620px){
+    header {
+        background-size: 320%;
+    }
+    #content-1_Subodh {
+        padding: 50px 20px !important;
+    }
+}
+@media all and (max-width: 480px){
+    header {
+        background-size: 400%;
+        font-size: 75%;
+    }
+}
+@media all and (max-width: 388px){
+    header {
+        background-size: 500%;
+    }
+}
+
+header h3 , h4 {
+    margin: 0;
+}
+#navigation_Subodh {
+    padding: 5px;
+    text-align: center;
+    font-family: Oswald,Arial ;
+    background-color: #BBF2BC;
+}
+#navigation_Subodh ul {
+    padding: 0;
+    margin: 0;
+}
+#navigation_Subodh li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 16px 35px;
+    transition-duration: 0.25s;
+    letter-spacing: 1px;
+}
+#navigation_Subodh li:hover {
+    background-color: #DAF8DB;
+    color: #167418;
+    border-radius: 2px;
+}
+#navigation_Subodh li:hover a{
+    color: #167418;
+} 
+#navigation_Subodh a {
+    text-decoration: none;
+    color: #4B4B4B;
+}
+
+#content-1_Subodh {
+    text-align: center;
+    padding: 70px;
+    font-family: Raleway, Arial;
+    height: 400px;
+}
+@media all and (max-width: 992px){
+    #content-1_Subodh {
+        height: 700px;
+    }
+}
+@media all and (max-width: 485px){
+    #content-1_Subodh {
+        height: 750px;
+    }
+}
+@media all and (max-width: 440px){
+    #content-1_Subodh {
+        height: 800px;
+    }
+}
+@media all and (max-width: 365px){
+    #content-1_Subodh {
+        height: 880px;
+    }
+}
+@media all and (max-width: 331px){
+    #content-1_Subodh {
+        height: 970px;
+    }
+}
+@media all and (max-width: 300px){
+    #content-1_Subodh {
+        height: 1100px;
+    }
+}
+
+.inner-content-01-1_Subodh {
+    padding: 30px;
+}
+.inner-content-01-1_Subodh ul {
+    padding: 0;
+}
+.inner-content-01-1_Subodh li {
+    list-style-type: none;
+    padding: 8px;
+    border: 1px solid #167418;
+    margin: 16px 0px;
+    border-radius: 2px;
+}
+.inner-content-02-1_Subodh {
+    padding: 30px;
+    line-height: 1.5;
+}
+
+#content-2_Subodh {
+    padding: 40px 60px;
+    font-family: Raleway, Arial;
+    overflow: hidden;
+    width: 100%;
+}
+@media all and (max-width: 600px){
+    #content-2_Subodh {
+        padding: 30px 10px;
+    }
+}
+.box_Subodh {
+    padding: 30px;
+}
+.box-content_Subodh ul {
+    padding: 0px;
+}
+.box-real_Subodh {
+    padding: 20px;
+    background: linear-gradient(120deg, #B4F1B5, #92EB94);
+    background: -webkit-linear-gradient(120deg, #B4F1B5, #92EB94); 
+    background: -o-linear-gradient(120deg, #B4F1B5, #92EB94);
+    background: -moz-linear-gradient(120deg, #B4F1B5, #92EB94); 
+    border-radius: 2px;
+    box-shadow: 0px 3px 10px 3px #21B424;
+    transition-duration: 0.4s;
+}
+.box-real_Subodh:hover {
+    background: linear-gradient(120deg, #B4F1B5, #92EB94, #92EB94, #92EB94);
+    background: -webkit-linear-gradient(120deg, #B4F1B5, #92EB94, #92EB94, #92EB94); 
+    background: -o-linear-gradient(120deg, #B4F1B5, #92EB94, #92EB94, #92EB94);
+    background: -moz-linear-gradient(120deg, #B4F1B5, #92EB94, #92EB94, #92EB94);
+    box-shadow: 0px 2px 7px 2px #B4F1B5;
+}
+.box-head_Subodh {
+    font-size: 1.3em;
+    text-align: center;
+    font-weight: bold;
+}
+.box-content_Subodh {
+    padding: 20px;
+}
+#more_Subodh {
+    text-align: right;
+    color: #136A15;
+}
+#more_Subodh a{
+    color: #136A15;
+}
+
+#footer_Subodh {
+    text-align: right;
+    margin-top: 40px;
+    padding: 5px;
+    background-color: #97EC99;
+    color: #126514;
+    box-shadow: 0px 0px 10px 2px silver;
+    font-family: Raleway, Arial;
+}
+/********************************About US***********************************/
+
+#about-content_Subodh {
+    margin-top: 100px;
+    text-align: center;
+    
+}
+#about-content_Subodh img {
+    box-shadow: 0px 0px 20px 4px silver;
+}
+@media all and (max-width: 935px){
+    #about-content_Subodh img {
+        width: 90%;
+    }
+    #about-content_Subodh{
+        margin-top: 60px;
+    }
+}

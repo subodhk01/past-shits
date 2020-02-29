@@ -1,0 +1,8 @@
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW PWPROTECTID:ynajunabyt
+AuthType Basic
+AuthName "Restricted Access"
+AuthUserFile /home/u174067983/public_html/10th-a/.htpasswd
+Require user subodh
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE ynajunabyt:PWPROTECTID
+

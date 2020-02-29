@@ -1,0 +1,58 @@
+.subodh_logo {
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    text-align: center;
+    font-size: 23px;
+}
+.subodh_logo img {
+    height: 185px;
+}
+.subodh_logo div {
+    text-align: center;
+    height: 100%;
+}
+.subodh_about {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.subodh_about p {
+    font-family:Gulim;
+    font-size: 20px;
+    text-align:justify;
+}
+.subodh_enquire {
+    width: 100%;
+    box-shadow: 0px 0px 1px 2px #C9E7EF;
+    padding: 1%;
+    border-radius: 2px;
+}
+.subodh_enquire_div {
+    padding: 1%;
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 1300px) {
+    .subodh_logo {
+        font-size: 23px;
+    }
+    .subodh_logo img {
+        height: 160px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .subodh_logo {
+        font-size: 18px;
+    }
+    .subodh_logo img {
+        height: 120px;
+    }
+    .subodh_enquire_div {
+        width: 80%;
+    }
+    .subodh_about p {
+        font-size: 16px;
+    }
+}

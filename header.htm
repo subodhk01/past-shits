@@ -1,0 +1,257 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <link href="header.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-77956062-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="jQuery.scrollSpeed.js"></script>
+        <script>
+            
+$(function() {  
+
+    jQuery.scrollSpeed(80, 750);
+
+});
+        </script>
+    <!-- PopMyAds.com Popunder Code for beginc.in -->
+     
+    <script type="text/javascript">
+    var pmauid = '27190';
+    var pmawid = '25542';
+    var fq = '0';
+    </script>
+    <script type="text/javascript" src="http://cdn.popmyads.com/pma.js"></script>
+     
+    <!-- PopMyAds.com Popunder Code End -->
+	<title>Header Files | Begin C - A Beginners Guide</title>
+    <link rel="icon" type="image/gif/png" href="C1.png" />
+</head>
+
+<body>
+
+
+
+            <div id="nav">
+        
+                <a href="index.htm"><div id="nav_head"> Begin C </div></a>
+                <div id="nav_container">
+                    <div class="nav"><a href="Solutions.htm"> Solutions </a></div>
+                    <div class="nav" id="home_nav"><a href="index.htm"> Home </a ></div>
+                    <div class="nav"><a href="about.htm"> About </a></div>
+                </div>
+                
+            </div>
+            
+             
+        
+        <div id="content">
+        
+                    <div id="side_list">
+                    
+                         <a href="index.htm"><div class="list"> Home </div></a>   
+                         <a href="intro.htm"><div class="list"> Introduction </div></a>
+                         <a href="lan_basic.htm"><div class="list"> Language Basic & Operators </div></a>
+                         <a href="comments.htm"><div class="list"> Comments </div></a>
+                         <a href="first.htm"><div class="list"> Our First Program </div></a>
+                         <a href="header.htm"><div class="list" style="background: -webkit-linear-gradient(140deg, #87CDF8, #C1E7FD); 
+    background: -o-linear-gradient(140deg, #87CDF8, #C1E7FD); 
+    background: -moz-linear-gradient(140deg, #87CDF8, #C1E7FD);
+    background: linear-gradient(140deg, #87CDF8, #C1E7FD);background-color:#03C1E2;color:white"> Header Files </div></a>
+                         <a href="con_flow.htm"><div class="list"> Control Statements </div></a>
+                         <a href="conditionals.htm"><div class="list"> Conditionals </div></a>
+                         <a href="un_con.htm"><div class="list"> Unconditionals </div></a>
+                         <a href="loops.htm"><div class="list"> Loops </div></a>
+                         <a href="array.htm"><div class="list"> Arrays </div></a>
+                         <a href="function.htm"><div class="list"> Functions </div></a>
+                         <a href="type_fun.htm"><div class="list"> Types of Functions </div></a><br />
+                         
+                         <a href="Solutions.htm"><div id="quiz" style="font-size: 2vw;">
+                                 Solutions are here 
+                         </div></a><br />
+                         
+                         
+                         
+                         
+                    
+                    </div>
+                    
+<!------------------------------------------------------------------------------------------------------------------------->
+                    
+                    <div id="main">
+                    
+                        <div id="ack">
+                            
+                            
+                                    <div class="heading_pages">    Header Files    </div>
+                                    
+                                    <p class="ack_content">
+                                    
+                                            
+                                    <p>
+                                            Header Files contains pre-defined functions which can be further used by users. Till now
+                                            we have discussed 2 header files : &nbsp;&nbsp;1) stdio.h  &nbsp;&nbsp;&nbsp;  2) conio.h
+                                    </p>
+                                    
+                                    <div class="heading_pages"> stdio.h </div>
+                                    
+                                    <p>
+                                            This header file includes functions like printf(), scanf(), etc.<br />
+                                            
+                                            <ul>
+                                                    <li> printf() </li>
+                                                    <p>
+                                                            This is a very basic and most important function in C. It is used to print
+                                                            anything on the output screen.
+                                                            <div style="text-align: center;background-color: #68FDD5;border-left: 2px solid #04C68B;
+                                            box-shadow: 2px 4px 4px 2px rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+                                            background: -webkit-linear-gradient(140deg, #68FDD5, #17E1B9); 
+                                            background: -o-linear-gradient(140deg, #68FDD5, #17E1B9); 
+                                            background: -moz-linear-gradient(140deg, #68FDD5, #17E1B9);
+                                            background: linear-gradient(140deg, #68FDD5, #17E1B9);
+                                            "> <code>Usage - printf("Message"); </code></div>
+                                            
+                                                            but for printing a variable we cannot directly write the variable's name in the inverted
+                                                            commas but we have to do something different.<br />
+                                                            ex- for a int variable a, we have to do 
+                                                            <p class="ex"><code> printf("Sum = %d",a); </code></p>
+                                                            Here %d is used to save that place for the value of any integer and at end we 
+                                                            have to specify the variable.<br /> 
+                                                            <p style="text-align: center;"> For character, we use  %c<br />
+                                                                                            For string, we use  %s<br />
+                                                                                            For float, we use %f </p>
+                                                            But if we want to add multiple as well as different types of variables in one
+                                                            printf() statement, we do so
+                                                            <p class="ex"><code> printf("Values are %d %f %s",a,b,c); </code></p>
+                                                    </p>
+                                                    
+                                                    <li> scanf() </li>
+                                                    <p>
+                                                            scanf() is another function in stdio.h header file. It is another very important function
+                                                            in C. It is used to take input(s) from the user.
+                                                            <p class="ex"><code>  int a;<br />scanf("%d",&a); </code></p>
+                                                            scanf() is quite similar to printf() but scanf() requires only %d %f %s %c inside inverted
+                                                            commas and here with the variable name we have to use a "&" sign. In C this sign is used
+                                                            to direct address. It is neccesary to use "&" sign with scanf() function.<br />
+                                                            We can also input several datas at one time also.
+                                                            <p class="ex"><code> int a,b;<br />scanf("%d%d",&a,&b); </code></p>
+                                                            
+                                                            <p style="color: #D50D0D;"> NOTE : Be proper with the syntax of scanf(), if you even added an extra 
+                                                            space, your progran will not execute properly.</p>
+                                                    </p>
+                                            </ul>
+                                    </p>
+                                    
+                                    <div class="heading_pages"> conio.h </div>
+                                    
+                                    <p>
+                                    
+                                    
+                                            This header file includes functions like clrscr(), getch() etc.
+                                            <ul>
+                                            
+                                                    <li>
+                                                            clrscr()
+                                                    </li>
+                                                    <p>
+                                                            This function is used to clear the output screen. This is an optional function rather this 
+                                                            whole header file is optional but is used for special purposes.This function do not have any 
+                                                            parameters, we just have to write clrscr().
+                                                    </p>
+                                                    
+                                                    <li> 
+                                                            getch() 
+                                                    </li>
+                                                    <p>
+                                                            This funtion is basically used to hold the output screen. It is also an optional function
+                                                            but I recommend using it everytime as not using it may lead to confusion coz you will 
+                                                            not notice anything. I suggest to compile any program without using getch() and you will
+                                                            automatically understand everything.<br /><br /> 
+                                                            
+                                                            
+                                                    </p>
+                                            
+                                            </ul><hr />
+                                            
+                                            There are a lot many header files in C. I request you to explore them as well as their functions. It seems
+                                            boring but is very intresting, you should give it a try.
+                                                  
+                                    
+                                    
+                                    </p> <hr />     
+                                    <p>
+                                       
+                                            Now since you have learned how to frame basic programs, here are some programs I request you to try on your 
+                                            own :
+                                            <ul>
+                                                    <li> Program for multiplication of two or more numbers. </li>
+                                                    <li> Program for division. </li>
+                                                    <li> Program to find Simple Intrest. </li>
+                                                    <li> Program to find average. </li>
+                                                    <li> Program to find area of rectangle. square, circle etc. </li>
+                                            </ul>
+                                            
+                                            I would also request you to try experimenting, coz as soon as you start practising and give time to the language
+                                            your mind will become wide, your will get doubts and your intrest will become desire. Programming  is damn helpful, it improves our problem solving part, it helps us to think more widely and guys Programming 
+                                            is something which has no limits, no boundations, everything is possible in programming.
+                                            
+                                    </p>
+                                            
+                                    
+                                    </p>
+                                    
+                                    
+                             
+                             
+                             
+                             
+                             
+                                    
+                            
+                            
+                        </div>
+                        
+                        
+                    <a href="con_flow.htm">
+                        <div id="next_ch">
+                        
+                            Next Chapter
+                        
+                        </div>
+                    </a>
+                    </div>
+        
+        </div>
+        
+        
+        
+        
+        
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        
+        <div id="footer">
+        
+                <div style="margin-top: 0px;margin-bottom:0px;">A Subodh Verma Production</div> 
+        
+        </div>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,172 @@
+body {
+    margin:0 0 100px 0!important;
+    background-image: url('backgorund-image.jpg');
+    background-attachment: fixed;
+}
+@media all and (min-width: 992px){
+    #border-right {
+        border-right: 1px solid white;
+}
+}
+header {
+    background-image: url('archery-background-1.jpg');
+    background-size: cover;
+}
+#top-header_Subodh {
+    
+}
+#logo-container-1_Subodh {
+    text-align: center;
+    height: 20px;
+}
+#logo-container-1_Subodh img {
+    height: 170px;
+}
+#logo-container-2_Subodh {
+    text-align: center;
+    color: white;
+    font-family: Oswald;
+    font-size: 1.2em;
+    text-shadow: 0px 0px 10px black
+}
+#logo-container-2_Subodh ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+@media all and (max-width: 846px){
+    #header-content_Subodh h1 {
+        font-size: 2em!important;
+        letter-spacing: 3.3px!important;
+    }
+    #header-content_Subodh {
+        margin-left: 0px!important;
+    }
+    #quote_Subodhk h4{
+        font-size: 1em!important;
+        line-height: 19px; 
+    }
+    .indi {
+        margin-top: 20px;
+    }
+}
+@media all and (max-width: 776px){
+    #logo-container-2_Subodh ul {
+        display: none;
+    }
+}
+#logo-container-2_Subodh ul a {
+    color: white;
+}
+#logo-container-2_Subodh ul li {
+    display: inline-block;
+    margin: 0 150px;
+    transition-duration: 0.2s;
+}
+#logo-container-2_Subodh ul li:hover {
+    color: #D8D8D8;
+}
+
+#bottom-header_Subodh {
+    padding: 140px 0px 0px 0px;
+}
+#header-content_Subodh {
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 10px black;
+    font-family: Iceland;
+    margin-left: 30%;
+    margin-bottom: 40px;
+}
+#content_Subodhk {
+    padding: 20px;
+    font-size: 2.4em;
+}
+#content_Subodhk h3 {
+    margin-top: 0;
+}
+#quote_Subodhk {
+    background-color: rgba(70,70,70,0.9);
+    font-family: Handlee;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+    width: 100%;
+}
+#header-content_Subodh h1 {
+    font-size: 4em;
+    letter-spacing: 10.3px;
+    margin: 0;
+}
+#header-content_Subodh h1 {
+    margin: 0;
+}
+/********************************/
+#contact-us_Subodh {
+    padding: 20px 20px 30px 20px ;
+    text-align: center;
+    font-family: Handlee;
+    box-shadow: 0px 0px 2px 5px #DDDDDD inset;
+    width: 100%;
+    font-size: 1.3em;
+    overflow: hidden;
+}
+/*******/
+#main-content_Subodhk {
+    overflow: hidden;
+    width: 100%;
+    background-image: url('content-1.jpg');
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    text-shadow: 0px 0px 10px black;
+    color: white;
+    padding: 35px;
+    margin-bottom: 100px;
+    font-family: Handlee;
+    box-shadow: 0px 0px 4px 1px silver;
+}
+.main-content-part_Subodh {
+    padding: 45px ;
+    font-size: 1.35em;
+    text-align: center;
+}
+.main-content-part_Subodh p {
+    padding: 0px 20px;
+}
+.main-content-part_Subodh h1 {
+    margin-bottom: 50px;
+}
+@media all and (max-width: 820px){
+    .main-content-part_Subodh p {
+        padding: 0;
+    }
+    #main-content_Subodhk {
+        padding: 0;
+    }
+    .main-content-part_Subodh h1 {
+        font-size: 1.5em;
+    }
+    #footer_Subodh {
+        font-size: 2.4em!important;
+    }
+}
+/*************************/
+#footer_Subodh {
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    padding: 60px 0;
+    font-size: 3em;
+    font-family: Amatic SC;
+}
+#footer_Subodh ul li {
+    display: inline-block;
+    margin: 0px 20px;
+    font-size: 0.7em;
+}
+#footer_Subodh ul {
+    margin: 20px 0 0 0;
+    padding: 0;
+}

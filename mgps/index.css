@@ -1,0 +1,188 @@
+
+body {
+    margin: 0;
+}
+#outer-navigation_Subodh {
+    text-align: center;
+    box-shadow: 0px 0px 10px 4px silver;
+}
+#navigation-navs_Subodh {
+    color: #4F4F4F;
+    display: inline-block;
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
+#navigation-navs_Subodh li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0px 10px 0px 10px;
+    padding: 0px 0px 5px 0px;
+    font-family: Oswald;
+}
+#navigation-navs_Subodh li a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #4F4F4F;
+    transition-duration: 0.3s;
+}
+#navigation-navs_Subodh li a:hover {
+    text-decoration: underline;
+    color: #437B9C;
+}
+#navigation-logo_Subodh {
+    text-align: center;
+    height: 90px;
+    background-color: white;
+}
+#navigation-logo_Subodh img {
+    margin-right: 30px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 60px 7px silver;
+}
+@media all and (max-width: 816px){
+    #navigation-navs_Subodh {
+        display: none;
+    }
+    #navigation-logo_Subodh img {
+        height: 130px;
+        margin-right: 0px;
+    }
+    #hero_Subodh div {
+        padding-left:10% !important;
+    }
+}
+@media all and (max-width: 412px){
+    #hero_Subodh div {
+        padding-left:0% !important;
+    }
+    #hero_Subodh {
+        padding: 90px 15px 70px 15px !important;
+    }
+}
+/*-----------------------------------------------------*/
+#hero_Subodh {
+    background-image: url('hero-img.jpg');
+    background-size: 100%;
+    padding: 100px 30px 80px 30px;
+    font-size: 2.8em;
+    font-family: Parisienne;
+    color: white;
+    box-shadow: inset 0 10px 10px -3px rgb(70,70,70), 0px 0px 30px 4px silver;
+}
+@media all and (max-width:1400px){
+    #hero_Subodh {
+        background-size: 100%;
+    }
+}
+@media all and (max-width:1370px){
+    #hero_Subodh {
+        background-size: 115%;
+    }
+}
+@media all and (max-width:1175px){
+    #hero_Subodh {
+        background-size: 130%;
+    }
+}
+@media all and (max-width:1080px){
+    #hero_Subodh {
+        background-size: 140%;
+    }
+}
+@media all and (max-width:892px){
+    #hero_Subodh {
+        background-size: 180%;
+        background-position: right;
+    }
+}
+@media all and (max-width:738px){
+    #hero_Subodh {
+        background-size: 220%;
+    }
+}
+@media all and (max-width:627px){
+    #hero_Subodh {
+        background-size: 250%;
+        background-position: left;
+    }
+}
+@media all and (max-width:560px){
+    #hero_Subodh {
+        background-size: 280%;
+    }
+}
+@media all and (max-width:510px){
+    #hero_Subodh {
+        background-size: 320%;
+    }
+    .content-0_Subodh {
+        padding: 0px 1% 0px 1% !important;
+        text-align: center;
+    }
+}
+@media all and (max-width:465px){
+    #hero_Subodh {
+        background-size: 370%;
+        background-position: left;
+    }
+}
+@media all and (max-width:405px){
+    #hero_Subodh {
+        background-size: 450%;
+    }
+}
+#hero_Subodh div {
+    padding-left: 50%;
+    text-align: left;
+    text-shadow: 0px 0px 20px silver;
+}
+@media all and (max-width: 1085px){
+    #hero_Subodh {
+        font-size: 1.5em;
+    }
+    #hero_Subodh div {
+        text-align: center;
+    }
+}
+
+@media all and (max-width: 845px){
+    #hero_Subodh div {
+        padding-left: 50%;
+    }
+}
+#hero_Subodh div span {
+    font-size: 0.7em;
+}
+/*******************************/
+#content_Subodh {
+}
+.content-0_Subodh {
+    padding: 30px 10% 60px 10%;
+    width: 100%;
+    overflow: hidden;
+}
+.box_Subodh {
+    text-align: center;
+}
+.inner-box_Subodh {
+    padding: 10px;
+    margin-top: 40px;
+    background: rgba(255,134,128,1); 
+    background: -webkit-linear-gradient(150deg, rgba(255,134,128,1), rgba(255,186,183,1), rgba(255,134,128,1)); 
+    background: -o-linear-gradient(150deg, rgba(255,134,128,1), rgba(255,186,183,1), rgba(255,134,128,1)); 
+    background: -moz-linear-gradient(150deg, rgba(255,134,128,1), rgba(255,186,183,1), rgba(255,134,128,1)); 
+    background: linear-gradient(150deg, rgba(255,134,128,1), rgba(255,186,183,1), rgba(255,134,128,1));
+    box-shadow: 0px 2px 50px 5px silver;
+    border-radius: 2px;
+}
+.box-head_Subodh {
+    padding: 13px;
+    font-size: 1.6em;
+    font-family: Oswald;
+}
+.box-content_Subodh {
+    padding: 23px;
+    font-family: Arial;
+    text-align: justify;
+}

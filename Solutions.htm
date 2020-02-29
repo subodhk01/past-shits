@@ -1,0 +1,522 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<link href="solutions.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="real_quiz.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+</script>    <!-- PopMyAds.com Popunder Code for beginc.in -->
+     
+    <script type="text/javascript">
+    var pmauid = '27190';
+    var pmawid = '25542';
+    var fq = '0';
+    </script>
+    <script type="text/javascript" src="http://cdn.popmyads.com/pma.js"></script>
+     
+    <!-- PopMyAds.com Popunder Code End -->
+    <script src="jQuery.scrollSpeed.js"></script>
+        <script>
+            
+$(function() {  
+
+    jQuery.scrollSpeed(100, 500);
+
+});
+        </script>
+        <script>
+        $(document).ready(function(){
+    $('section[data-type="background"]').each(function(){
+        var $bgobj = $(this); // assigning the object
+    
+        $(window).scroll(function() {
+            var yPos = -($window.scrollTop() / $bgobj.data('speed')); 
+            
+            // Put together our final background position
+            var coords = '50% '+ yPos + 'px';
+
+            // Move the background
+            $bgobj.css({ backgroundPosition: coords });
+        }); 
+    });    
+});
+        </script>
+	<title> Solutions | Begin C - A Beginners Guide </title>
+    <link rel="icon" type="image/gif/png" href="C1.png" />
+</head>
+
+<body>
+                    
+                 <div id="nav">
+        
+                <a href="index.htm"><div id="nav_head"> Begin C </div></a>
+                <div id="nav_container">
+                    <div class="nav"><a href="Solutions.htm"> Solutions </a></div>
+                    <div class="nav" id="home_nav"><a href="index.htm"> Home </a></div>
+                    <div class="nav"><a href="about.htm"> About </a></div>
+                </div>
+                
+                    </div>
+            
+            
+            
+            <div id="content">
+            
+            
+                        <div> 
+                                <p> Here are the solutions of the programs which are given in the site. I suggest you to practise them and do
+                                some experiments too. </p>
+                        </div><br />
+                         
+                        <div class="pr">
+                                <a href="#1"><p> 1. Program for multiplication ( or Addition ) of two or more numbers.( Max 100 )</p></a>
+                                <a href="#2"><p> 2. Program to find Simple Intrest.</p></a>
+                                <a href="#3"><p> 3. Program to check wheather the person is adult or not.</p></a>
+                                <a href="#4"><p> 4. Program to check wheather the number is odd or even.</p></a>
+                                <a href="#5"><p> 5. Program to check wheather the number is negative or positive.</p></a>
+                                <a href="#6"><p> 6. Programs for printing series.</p></a>
+                                <a href="#7"><p> 7. Programs for printing series by nesting the loops.</p></a>
+                                
+                                <hr />
+                                <p style="color: #D50D0D;"> NOTE : If I had by mistake left any program, I am sorry, you can cantact and tell me.</p>
+                                <hr />
+                                                    
+               
+                    
+                        </div>  
+                        
+                        
+                        
+                        
+                        <div>
+                                <div>
+                                
+                                        <div class="sol_head" id="1">
+                                            1. Program for multiplication of two or more numbers.( Max 100 )
+                                        </div>   
+                                
+                                        <div class="ex">
+                                                <code>
+                                                        <li style="text-indent: ;">#include&lt;stdio.h&gt;</li>
+                                                        <li style="text-indent: ;">#include&lt;conio.h&gt;</li>
+                                                        <li style="text-indent: ;">void main()</li>
+                                                        <li style="text-indent: ;">{</li>
+                                                        <li style="text-indent: 10%;">clrscr();</li>
+                                                        <li style="text-indent: 10%;">int n;</li>
+                                                        <li style="text-indent: 10%;">printf("Enter the number of numbers you want to multiply :");</li>
+                                                        <li style="text-indent: 10%;">scanf("%d",&n);</li>
+                                                        <li style="text-indent: 10%;">int t[100];</li>
+                                                        <li style="text-indent: 10%;">//Now a loop to scan the values</li>
+                                                        <li style="text-indent: 10%;">for( int i = 1 ; i&lt;=n ; i++ ){</li>
+                                                        <li style="text-indent: 20%;">printf("Enter no. %d",i);</li>
+                                                        <li style="text-indent: 20%;">scanf("%d",&t[i]);</li>
+                                                        <li style="text-indent: 10%;">}</li>
+                                                        <li style="text-indent: 10%;">long int pr = 1;</li>
+                                                        <li style="text-indent: 10%;">// Now a loop for multiplication</li>
+                                                        <li style="text-indent: 10%;">for( int ione = 1 ; ione&lt;=n ; ione++ ){</li>
+                                                        <li style="text-indent: 20%;">pr = pr * t[i];</li>
+                                                        <li style="text-indent: 10%;">}</li>
+                                                        <li style="text-indent: 10%;">// Now printing the product</li>
+                                                        <li style="text-indent: 10%;">printf("Product = %ld",pr);</li>
+                                                        <li style="text-indent: 10%;">getch();</li>
+                                                        <li style="text-indent: ;">}</li>
+                                                        <li style="text-indent: ;"></li>
+                                                        <li style="text-indent: ;"></li>
+                                                        <li style="text-indent: ;"></li>
+                                                </code><br />
+                                                <p>
+                                                    Since it is not possible to take a variable as the size of array in Turbo C++ , so we manually added a array of size
+                                                    100, here many values of array are left empty but the program works fine. This was my result of experimenting,
+                                                    if you have something else in your mind regarding this, go on.<br />
+                                                    You can also do the same with Addition.
+                                                </p>
+                                        </div>  
+                                
+                                </div><div id="2"><div><br /><br /><br /><br /><br />  
+                                
+                                
+                                
+                                
+                                <div>
+                                
+                                        <div class="sol_head">
+                                            2. Program to find Simple Intrest.
+                                        </div>   
+                                
+                                        <div class="ex">
+                                                <code>
+                                                        <li style="text-indent: ;">#include&lt;stdio.h&gt;</li>
+                                                        <li style="text-indent: ;">#include&lt;conio.h&gt;</li>
+                                                        <li style="text-indent: ;">void main()</li>
+                                                        <li style="text-indent: ;">{</li>
+                                                        <li style="text-indent: 10%;">int p,r,t,si;</li>
+                                                        <li style="text-indent: 10%;">clrscr();</li>
+                                                        <li style="text-indent: 10%;">printf("Enter Principle :");</li>
+                                                        <li style="text-indent: 10%;">scanf("%d",&p);</li>
+                                                        <li style="text-indent: 10%;">printf("Enter Rate :");</li>
+                                                        <li style="text-indent: 10%;">scanf("%d",&r);</li>
+                                                        <li style="text-indent: 10%;">printf("Enter Time :");</li>
+                                                        <li style="text-indent: 10%;">scanf("%d",&t);</li>
+                                                        <li style="text-indent: 10%;">si = ( p * r * t ) / 100 ;</li>
+                                                        <li style="text-indent: 10%;">printf("Simple Intrest = %d",si);</li>
+                                                        <li style="text-indent: 10%;">getch();</li>
+                                                        <li style="text-indent: ;">}</li>
+                                                        <li style="text-indent: ;"></li>
+                                                        <li style="text-indent: ;"></li>
+                                                </code>
+                                        </div>  
+                                
+                                </div><div id="3"><div><br /><br /><br /><br /><br />
+                                
+                                
+                                
+                                <div>
+                                
+                                        <div class="sol_head">
+                                            3. Program to check wheather the person is adult or not.
+                                        </div>   
+                                
+                                        <div class="ex">
+                                                <code>
+                                                        <li style="text-indent: ;">#include&lt;stdio.h&gt;</li>
+                                                        <li style="text-indent: ;">#include&lt;conio.h&gt;</li>
+                                                        <li style="text-indent: ;">void main()</li>
+                                                        <li style="text-indent: ;">{</li>
+                                                        <li style="text-indent: 10%;">clrscr();</li>
+                                                        <li style="text-indent: 10%;">int age ;</li>
+                                                        <li style="text-indent: 10%;">printf("Enter your age :");</li>
+                                                        <li style="text-indent: 10%;">scanf("%d",&age);</li>
+                                                        <li style="text-indent: 10%;">if( age >= 18 )</li>
+                                                        <li style="text-indent: 20%;">printf("You are an Adult.");</li>
+                                                        <li style="text-indent: 10%;">else</li>
+                                                        <li style="text-indent: 20%;">printf("You are not yet Adult.");</li>
+                                                        <li style="text-indent: 10%;">getch();</li>
+                                                        <li style="text-indent: ;">}</li>
+                                                        <li style="text-indent: ;"></li>
+                                                        <li style="text-indent: ;"></li>
+                                                        <li style="text-indent: ;"></li>
+                                                </code>
+                                        </div>  
+                                
+                                </div><div id="4"><div><br /><br /><br /><br /><br />
+                                
+                                
+                                
+                                <div>
+                                
+                                        <div class="sol_head">
+                                            4. Program to check wheather the number is odd or even.
+                                        </div>   
+                                
+                                        <div class="ex">
+                                                <code>
+                                                        <li style="text-indent: ;">#include&lt;stdio.h&gt;</li>
+                                                        <li style="text-indent: ;">#include&lt;conio.h&gt;</li>
+                                                        <li style="text-indent: ;">void main()</li>
+                                                        <li style="text-indent: ;">{</li>
+                                                        <li style="text-indent: 10%;">clrscr();</li>
+                                                        <li style="text-indent: 10%;">int num;</li>
+                                                        <li style="text-indent: 10%;">printf("Enter the number :");</li>
+                                                        <li style="text-indent: 10%;">scanf("%d",&num);</li>
+                                                        <li style="text-indent: 10%;">if( num == 0 )</li>
+                                                        <li style="text-indent: 20%;">printf("The Number is zero.");</li>
+                                                        <li style="text-indent: 10%;">else if( num%2 == 0 )</li>
+                                                        <li style="text-indent: 20%;">printf("The number is even.");</li>
+                                                        <li style="text-indent: 10%;">else</li>
+                                                        <li style="text-indent: 20%;">printf("The number is odd.");</li>
+                                                        <li style="text-indent: 10%;">getch();</li>
+                                                        <li style="text-indent: ;">}</li>
+                                                        <li style="text-indent: ;"></li>
+                                                        <li style="text-indent: ;"></li>
+                                                        <li style="text-indent: ;"></li>
+                                                </code>
+                                        </div>  
+                                
+                                </div><div id="5"><div><br /><br /><br /><br /><br />
+                                
+                                
+                                
+                                <div>
+                                
+                                        <div class="sol_head">
+                                            5. Program to check wheather the number is negative or positive.
+                                        </div>   
+                                
+                                        <div class="ex">
+                                                <code>
+                                                        <li style="text-indent: ;">#include&lt;stdio.h&gt;</li>
+                                                        <li style="text-indent: ;">#include&lt;conio.h&gt;</li>
+                                                        <li style="text-indent: ;">void main()</li>
+                                                        <li style="text-indent: ;">{</li>
+                                                        <li style="text-indent: 10%;">clrscr();</li>
+                                                        <li style="text-indent: 10%;">int num;</li>
+                                                        <li style="text-indent: 10%;">printf("Enter the number :");</li>
+                                                        <li style="text-indent: 10%;">scanf("%d",&num);</li>
+                                                        <li style="text-indent: 10%;">if( num > 0 )</li>
+                                                        <li style="text-indent: 20%;">printf("The Number is Positive.");</li>
+                                                        <li style="text-indent: 10%;">else if( num < 0 )</li>
+                                                        <li style="text-indent: 20%;">printf("The number is Negative.");</li>
+                                                        <li style="text-indent: 10%;">else</li>
+                                                        <li style="text-indent: 20%;">printf("The number is zero.");</li>
+                                                        <li style="text-indent: 10%;">getch();</li>
+                                                        <li style="text-indent: ;">}</li>
+                                                </code>
+                                        </div>  
+                                
+                                </div><div id="6"><div><br /><br /><br /><br /><br />
+                                
+                                <div>
+                                    6. Programs for printing series.
+                                </div>
+                                
+                                
+                                <div>
+                                
+                                        <div class="sol_head">
+                                             5 , 4 , 3 , 2 , 1
+                                        </div>   
+                                
+                                        <div class="ex">
+                                                <code>
+                                                        <li style="text-indent: ;">#include&lt;stdio.h&gt;</li>
+                                                        <li style="text-indent: ;">#include&lt;conio.h&gt;</li>
+                                                        <li style="text-indent: ;">void main() </li>
+                                                        <li style="text-indent: ;">{</li>
+                                                        <li style="text-indent: 10%;">clrscr();</li>
+                                                        <li style="text-indent: 10%;">int n = 5;</li>
+                                                        <li style="text-indent: 10%;">for( n ; n>=1 ; n-- )</li>
+                                                        <li style="text-indent: 10%;">{</li>
+                                                        <li style="text-indent: 20%;">printf("%d \n",n);</li>
+                                                        <li style="text-indent: 10%;">}</li>
+                                                        <li style="text-indent: 10%;">getch();</li>
+                                                        <li style="text-indent: ;">}</li>
+                                                </code>
+                                        </div>  
+                                
+                                </div><br />
+                                
+                                
+                                
+                                <div>
+                                
+                                        <div class="sol_head">
+                                             2 , 4, 6 , 8 , 10
+                                        </div>   
+                                
+                                        <div class="ex">
+                                                <code>
+                                                        <li style="text-indent: ;">#include&lt;stdio.h&gt;</li>
+                                                        <li style="text-indent: ;">#include&lt;conio.h&gt;</li>
+                                                        <li style="text-indent: ;">void main()</li>
+                                                        <li style="text-indent: ;">{</li>
+                                                        <li style="text-indent: 10%;">int n;</li>
+                                                        <li style="text-indent: 10%;">clrscr();</li>
+                                                        <li style="text-indent: 10%;">n = 2;</li>
+                                                        <li style="text-indent: 10%;">while( n&lt;=10 )</li>
+                                                        <li style="text-indent: 10%;">{</li>
+                                                        <li style="text-indent: 20%;">printf("%d \n",n);</li>
+                                                        <li style="text-indent: 20%;">n = n + 2 ;;</li>
+                                                        <li style="text-indent: 10%;">}</li>
+                                                        <li style="text-indent: 10%;">getch();</li>
+                                                        <li style="text-indent: ;">}</li>
+                                                </code>
+                                        </div>  
+                                
+                                </div><br />
+                                
+                                
+                                <div>
+                                
+                                        <div class="sol_head">
+                                             1  , 3 ,  5  , 7  , 9
+                                        </div>   
+                                
+                                        <div class="ex">
+                                                <code>
+                                                        <li style="text-indent: ;">#include&lt;stdio.h&gt;</li>
+                                                        <li style="text-indent: ;">#include&lt;conio.h&gt;</li>
+                                                        <li style="text-indent: ;">void main()</li>
+                                                        <li style="text-indent: ;">{</li>
+                                                        <li style="text-indent: 10%;">int n;</li>
+                                                        <li style="text-indent: 10%;">clrscr();</li>
+                                                        <li style="text-indent: 10%;">n = 1;</li>
+                                                        <li style="text-indent: 10%;">while( n&lt;=10 )</li>
+                                                        <li style="text-indent: 10%;">{</li>
+                                                        <li style="text-indent: 20%;">printf("%d \n",n);</li>
+                                                        <li style="text-indent: 20%;">n = n + 2 ;;</li>
+                                                        <li style="text-indent: 10%;">}</li>
+                                                        <li style="text-indent: 10%;">getch();</li>
+                                                        <li style="text-indent: ;">}</li>
+                                                </code>
+                                        </div>  
+                                
+                                </div><br />
+                                
+                                
+                                <div>
+                                
+                                        <div class="sol_head">
+                                             1 , 4 , 9 , 16 , 25
+                                        </div>   
+                                
+                                        <div class="ex">
+                                                <code>
+                                                        <li style="text-indent: ;">#include&lt;stdio.h&gt;</li>
+                                                        <li style="text-indent: ;">#include&lt;conio.h&gt;</li>
+                                                        <li style="text-indent: ;">void main()</li>
+                                                        <li style="text-indent: ;">{</li>
+                                                        <li style="text-indent: 10%;">int n;</li>
+                                                        <li style="text-indent: 10%;">clrscr();</li>
+                                                        <li style="text-indent: 10%;">n = 1;</li>
+                                                        <li style="text-indent: 10%;">while( n&lt;=5 )</li>
+                                                        <li style="text-indent: 10%;">{</li>
+                                                        <li style="text-indent: 20%;">printf("%d \n",n*n);</li>
+                                                        <li style="text-indent: 20%;">n++;</li>
+                                                        <li style="text-indent: 10%;">}</li>
+                                                        <li style="text-indent: 10%;">getch();</li>
+                                                        <li style="text-indent: ;">}</li>
+                                                </code>
+                                        </div>  
+                                
+                                </div><br />
+                                
+                                
+                                <div>
+                                
+                                        <div class="sol_head">
+                                             1  , 5 ,  10  , 15  , 20
+                                        </div>   
+                                
+                                        <div class="ex">
+                                                <code>
+                                                        <li style="text-indent: ;">#include&lt;stdio.h&gt;</li>
+                                                        <li style="text-indent: ;">#include&lt;conio.h&gt;</li>
+                                                        <li style="text-indent: ;">void main()</li>
+                                                        <li style="text-indent: ;">{</li>
+                                                        <li style="text-indent: 10%;">int n;</li>
+                                                        <li style="text-indent: 10%;">clrscr();</li>
+                                                        <li style="text-indent: 10%;">n = 0;</li>
+                                                        <li style="text-indent: 10%;">while( n&lt;=20 )</li>
+                                                        <li style="text-indent: 10%;">{</li>
+                                                        <li style="text-indent: 20%;">printf("%d \n",n);</li>
+                                                        <li style="text-indent: 20%;">n = n + 5;</li>
+                                                        <li style="text-indent: 10%;">}</li>
+                                                        <li style="text-indent: 10%;">getch();</li>
+                                                        <li style="text-indent: ;">}</li>
+                                                </code>
+                                        </div>  
+                                
+                                </div><div id="7"><div><br /><br /><br /><br /><br />
+                                
+                                
+                                
+                                <div>
+                                    7. Programs for printing series by nesting the loops.
+                                </div>
+                                
+                                
+                                <div>
+                                
+                                        <div class="sol_head" id="7">
+                                            <li>#</li>
+                                            <li># #</li>
+                                            <li># # #</li>
+                                            <li># # # #</li>
+                                            <li># # # # # </li>
+                                        </div>   
+                                
+                                        <div class="ex">
+                                                <code>
+                                                        <li style="text-indent: ;">#include&lt;stdio.h&gt;</li>
+                                                        <li style="text-indent: ;">#include&lt;conio.h&gt;</li>
+                                                        <li style="text-indent: ;">void main()</li>
+                                                        <li style="text-indent: ;">{</li>
+                                                        <li style="text-indent: 10%;">int c,r;</li>
+                                                        <li style="text-indent: 10%;">clrscr();</li>
+                                                        <li style="text-indent: 10%;">for( c=1 ; c<=5 ; c++ )</li>
+                                                        <li style="text-indent: 10%;">{</li>
+                                                        <li style="text-indent: 20%;">for( r=1 ; r<=c ; r++ )</li>
+                                                        <li style="text-indent: 20%;">{</li>
+                                                        <li style="text-indent: 30%;">printf("*");</li>
+                                                        <li style="text-indent: 20%;">}</li>
+                                                        <li style="text-indent: 20%;">printf("\n");</li>
+                                                        <li style="text-indent: 10%">}</li>
+                                                        <li style="text-indent: 10%;">getch();</li>
+                                                        <li style="text-indent: ;">}</li>
+                                                </code>
+                                        </div>  
+                                
+                                </div><br /><br />
+                                
+                                
+                                
+                                <div>
+                                
+                                        <div class="sol_head" id="7">
+                                            <li>1</li>
+                                            <li>2 2</li>
+                                            <li>3 3 3</li>
+                                            <li>4 4 4 4</li>
+                                            <li>5 5 5 5 5</li>
+                                        </div>   
+                                
+                                        <div class="ex">
+                                                <code>
+                                                        <li style="text-indent: ;">#include&lt;stdio.h&gt;</li>
+                                                        <li style="text-indent: ;">#include&lt;conio.h&gt;</li>
+                                                        <li style="text-indent: ;">void main()</li>
+                                                        <li style="text-indent: ;">{</li>
+                                                        <li style="text-indent: 10%;">int c,r;</li>
+                                                        <li style="text-indent: 10%;">clrscr();</li>
+                                                        <li style="text-indent: 10%;">for( c=1 ; c<=5 ; c++ )</li>
+                                                        <li style="text-indent: 10%;">{</li>
+                                                        <li style="text-indent: 20%;">for( r=1 ; r<=c ; r++ )</li>
+                                                        <li style="text-indent: 20%;">{</li>
+                                                        <li style="text-indent: 30%;">printf("%d",c);</li>
+                                                        <li style="text-indent: 20%;">}</li>
+                                                        <li style="text-indent: 20%;">printf("\n");</li>
+                                                        <li style="text-indent: 10%">}</li>
+                                                        <li style="text-indent: 10%;">getch();</li>
+                                                        <li style="text-indent: ;">}</li>
+                                                </code>
+                                        </div>  
+                                
+                                </div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                     
+                        </div>
+                        
+                         
+                        
+                        
+            </div>      
+            
+            <div id="footer">
+                                <div> A Subodh Verma Production </div>
+            </div>
+                    
+
+</body>
+</html>

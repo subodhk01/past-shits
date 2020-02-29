@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    background-image: url('backgorund-image.jpg');
+    background-attachment: fixed;
+}
+header {
+    padding: 25px 10%;
+    font-family: Oswald;
+    width: 100%;
+    color: #575757;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px 1px silver inset;
+    font-size: 1.4em;
+    letter-spacing: 2px;
+    text-shadow: 0px 0px 0.2px grey;
+}
+header a {
+    color: black;
+}
+header a:hover{
+    text-decoration: none;
+}
+.head-part-1_Subodh {
+    text-align: left;
+}
+.head-part-2_Subodh {
+    text-align: right;
+}
+.head-part-2_Subodh nav {
+    list-style-type: none;
+}
+.head-part-2_Subodh nav li {
+    display: inline-block;
+}
+/****************/
+#branches_Subodh {
+    padding: 70px 5%;
+    font-family: Handlee;
+    font-size: 1.3em;
+    background-color: #F0F0F0;
+    width: 100%;
+    overflow: hidden;
+}
+.brach-part_Subodh {
+    text-align: center;
+}
+.brach-part_Subodh p {
+    margin-top: 20px;
+}
+/**********************/
+#enquiry_Subodh {
+    width:100%;
+    overflow: hidden;
+    padding: 70px 30%;
+    background-color: #EEEEEE;
+    box-shadow: 0px 0px 5px 1px silver;
+    font-family: Handlee;
+    font-size: 1.2em;
+}
+#enquiry_Subodh h1 {
+    margin-bottom: 50px;
+    text-align: center;
+}
+#enquiry_Subodh form button {
+    text-align: center;
+}
+
+/********************/
+#footer_Subodh {
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    padding: 100px 0;
+    font-size: 3em;
+    font-family: Amatic SC;
+}
+#footer_Subodh ul li {
+    display: inline-block;
+    margin: 0px 20px;
+    font-size: 0.7em;
+}
+#footer_Subodh ul {
+    margin: 20px 0 0 0;
+    padding: 0;
+}

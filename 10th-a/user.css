@@ -1,0 +1,56 @@
+body {
+    margin: 0px;
+}
+header {
+    padding: 18px 10%;
+    text-align: right;
+    background-color: #7192DD;
+    font-family: Oswald;
+    letter-spacing: 0.6px;
+}
+@media all and (max-width: 300px){
+    #head_Subodh {
+        text-align: center !important;
+    }
+}
+#no-hover_Subodh:hover {
+    color: white;
+}
+header a {
+    margin: 5px 20px;
+    color: white;
+    font-size: 1.08em;
+}
+#content_Subodh {
+    padding: 55px 10%;
+}
+#attendence_Subodh {
+    border: 1px solid #3F6AD1;
+}
+.box-1_Subodh {
+    background-color: #3F6AD1;
+    padding: 5px 20px;
+    color: white;
+}
+.box-2_Subodh {
+    padding: 30px;
+    overflow: auto;
+}
+.box-2_Subodh table {
+    border: 1px solid #3F6AD1;
+    width: 100%;
+    min-width: 500px
+}
+.box-2_Subodh table tr {
+    border: 1px solid #3F6AD1;
+}
+.box-2_Subodh table tr td {
+    border: 1px solid #3F6AD1;
+    text-align: center;
+    padding: 1px 3px;
+}
+.box-2_Subodh table tr th {
+    border: 1px solid #3F6AD1;
+    text-align: center;
+    background-color: #8BA6E4;
+}

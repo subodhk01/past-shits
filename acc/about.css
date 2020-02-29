@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    background-image: url('backgorund-image.jpg');
+    background-attachment: fixed;
+}
+header {
+    padding: 25px 10%;
+    font-family: Oswald;
+    width: 100%;
+    color: #575757;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px 1px silver inset;
+    font-size: 1.4em;
+    letter-spacing: 2px;
+    text-shadow: 0px 0px 0.2px grey;
+}
+header a {
+    color: black;
+}
+header a:hover{
+    text-decoration: none;
+}
+.head-part-1_Subodh {
+    text-align: left;
+}
+.head-part-2_Subodh {
+    text-align: right;
+}
+.head-part-2_Subodh nav {
+    list-style-type: none;
+}
+.head-part-2_Subodh nav li {
+    display: inline-block;
+}
+/****************/
+#info-about_Subodh {
+    width: 100%;
+    overflow: hidden;
+    padding: 40px 10% 50px 10%;
+    background-color: white;
+    font-family: Handlee;
+}
+.box-about_Subodh {
+    text-align: center;
+    padding: 30px;
+}
+.box-inside-about_Subodh {
+    margin: 0 65px;
+    padding: 50px;
+}
+.image-box_Subodh img {
+    border: 0.5px dotted black;
+    border-radius: 50%;
+}
+.content-box_Subodh {
+    margin-top: 30px;
+}
+@media all and (max-width:1192px){
+    #info-about_Subodh {
+        padding:  0px 80px;
+    }
+    .box-inside-about_Subodh {
+        margin: 0;
+    }
+}
+@media all and (max-width:960px){
+    .box-inside-about_Subodh {
+        padding:0;
+    }
+}
+@media all and (max-width:767px){
+    #info-about_Subodh {
+        padding: 0px 0 60px 0;
+    }
+    .head-part-1_Subodh {
+        text-align: center;
+    }
+    .head-part-2_Subodh {
+        text-align: center;
+        margin-top: 20px;
+        text-transform: lowercase;
+    }
+    .head-part-2_Subodh nav a li {
+        text-decoration: underline;
+    }
+}
+/************************/
+#about_Subodh {
+    padding: 0px 10% 60px 10%;
+    text-align: justify;
+    font-size: 1.28em;
+    background-color: white;
+    font-family: Handlee;
+}
+/**************/
+#footer_Subodh {
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    padding: 100px 0;
+    font-size: 3em;
+    font-family: Amatic SC;
+    box-shadow: 0px 0px 5px 1px silver inset;
+}
+#footer_Subodh ul li {
+    display: inline-block;
+    margin: 0px 20px;
+    font-size: 0.7em;
+}
+#footer_Subodh ul {
+    margin: 20px 0 0 0;
+    padding: 0;
+}
